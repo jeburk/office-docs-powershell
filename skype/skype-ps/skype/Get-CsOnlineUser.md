@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Rtc.Management.Hosted.dll-help.xml 
-applicable: Skype for Business Online
+applicable: Skype for Business Online | Microsoft Teams
 title: Get-CsOnlineUser
 schema: 2.0.0
 author: kenwith
@@ -12,7 +12,7 @@ ms.reviewer:
 
 ## SYNOPSIS
 Returns information about users who have accounts homed on Skype for Business Online.
-This cmdlet can only be used with Skype for Business Online.
+This cmdlet can only be used with Skype for Business Online and Teams.
 
 ## SYNTAX
 
@@ -23,7 +23,7 @@ Get-CsOnlineUser [-Filter <String>] [-LdapFilter <String>] [-OnOfficeCommunicati
 ```
 
 ## DESCRIPTION
-The Get-CsOnlineUser cmdlet returns information about users who have accounts homed on Skype for Business Online.
+The Get-CsOnlineUser cmdlet returns information about users who have accounts homed on Skype for Business Online/Teams.
 The returned information includes standard Active Directory account information (such as the department the user works in, his or her address and phone number, etc.) as well as Skype for Business Server 2015 specific information: the Get-CsOnlineUser cmdlet returns information about such things as whether or not the user has been enabled for Enterprise Voice and which per-user policies (if any) have been assigned to the user.
 
 Note that the Get-CsOnlineUser cmdlet does not have a TenantId parameter; that means you cannot use a command similar to this in order to limit the returned data to users who have accounts with a specific Skype for Business Online tenant:
