@@ -1,7 +1,7 @@
 ---
 external help file: Microsoft.Rtc.Management.Hosted.dll-help.xml 
 online version: https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity
-applicable: Skype for Business Online
+applicable: Skype for Business Online, Teams
 title: New-CsCallingLineIdentity
 schema: 2.0.0
 manager: bulenteg
